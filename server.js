@@ -67,12 +67,7 @@ server.on('message', function (message, remote) {
 function flood(message, remote) {
 	server.send(message, 0, message.length, parseInt(PORT)+1, remote.address );
 	server.send(message, 0, message.length, parseInt(PORT)-1, remote.address );
-<<<<<<< HEAD
-
 	console.log("flooding: " + message);
-
-=======
->>>>>>> 8d5be6480dec75d414dc06bb197ed94a02893966
 	flooded[message] = true;
 }
 
