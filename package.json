@@ -1,0 +1,8 @@
+{
+  "name": "3780-Application",
+  "version": "0.0.1",
+  "description": "Tyler Churchill and Lukas Grasse 3780 Application",
+  "dependencies": {
+    "colors": "^1.1.2"
+  }
+}
