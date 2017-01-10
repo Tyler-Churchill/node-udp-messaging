@@ -1,13 +1,14 @@
 # 3780 Networking Project
 ## Fall 2016, University of Lethbridge
 ### Lukas Grasse and Tyler Churchill
-# About
+
+## About
 
 This client-server model allows for messages to be sent between between clients using multiple servers.
 The server implements the flooding routing algorithim. Each server can communicate with server +-1 in the networks topology.
 
 
-# How to install/run
+## How to install/run
 
 1. Install Node
 	..* [Linux](https://nodejs.org/en/download/package-manager/)
